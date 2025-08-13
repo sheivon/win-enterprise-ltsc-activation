@@ -1,15 +1,25 @@
 # Activate Windows 10/11 Enterprise LTSC
 
 Supported Versions:
-
 - Windows 11 Enterprise LTSC 2024
 - Windows 10 Enterprise LTSC 2021
 - Windows 10 Enterprise LTSC 2019
 
-## 1. Copy Required Files
+## Activation Methods
 
-Copy these folders to the correct location:
+Try Method 1 first. If it doesn’t work, use Method 2.
 
+## Method 1: Automatic
+
+```
+Run `auto-copy.exe` as Administrator.
+```
+
+## Method 2: Manual (Follow steps below)
+
+## 1.Copy Required Files
+
+Copy folders to the correct location:
 - csvlk-pack
 - EnterpriseS
 
@@ -19,7 +29,7 @@ Destination Path:
 C:\Windows\System32\spp\tokens\skus
 ```
 
-## 2. Run Activation Commands (Admin CMD)
+## 2.Run Activation Commands (Admin CMD)
 
 ```cmd
 cscript.exe %windir%\system32\slmgr.vbs /rilc
@@ -32,9 +42,7 @@ cscript.exe %windir%\system32\slmgr.vbs /ato
 ```
 
 Notes:
-
 - /skms parameter sets the Key Management Service (KMS) server.
-
 - If kms.digiboy.ir doesn’t work, try one of these alternatives:
 
 ```
