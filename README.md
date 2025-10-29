@@ -58,4 +58,5 @@ kms.shuax.com
 kensol263.imwork.net:1688
 kms.loli.best
 kms.vudy.net
+kms8.msguides.com
 ```
